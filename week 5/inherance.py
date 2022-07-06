@@ -1,7 +1,11 @@
-class Dog:
-    def walk(self):
-        print("Walk")
+from ast import walk
 
-class Cat:
-    def walk(self):
-        print("Walk")
+
+class Mammal:
+    del walk(self)
+        
+
+# class Dog:
+    
+# class Cat:
+    
