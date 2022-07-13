@@ -1,7 +1,5 @@
-def credit_num(num):
-    input = int(input("Input your card number: "))
-    if len(input) < 16 and len(input) > 16:
+def creditCardNumber(num):
+    num = input("Enter your credit card number: ")
+    if len(num)< 16 and len(num) > 16:
         return False
-    else:
-        return True
-    
+    return '*' * (len(num) -4) + num[-4: ]
