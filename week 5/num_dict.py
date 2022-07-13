@@ -10,5 +10,6 @@ for i in range(0,99):
 # print(list_num)
 list_key = [str(j) for j in  list_num]
 # print(list_key)
+list(set(list_num))
 num_dict = dict(zip(list_key,list_num))
 print(num_dict)
