@@ -1,5 +1,4 @@
-print('Multiplication table from 1 to 12: ')
-for x in range (1,13):
-    print('\n')
-    for y in range(1, 13):
-        print(x*y, end='\t')
+for k in range (1,13):
+    print ("The multiplication table of:", k, "is:")
+    for i in range (1,13):
+        print (i, "x", k, "=", i * k)

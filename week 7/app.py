@@ -1,8 +1,25 @@
-# import converter
-# from converter import kg_to_lbs
-# from converter import lbs_to_kg
+class Pet:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+
+    def show(self):
+        print(f"I am {self.name} and I am {self.age} years old")
 
 
-# print(lbs_to_kg(100))
-# print(kg_to_lbs(100))
-# # print(converter.kg_to_lbs(70))
+class Cat(Pet):
+    def speak(self):
+        print("Moew")
+
+
+class Dog(Pet):
+    def speak(self):
+        print("Bark")
+
+
+p = Pet("Tim", 19)
+p.show()
+c = Cat("Bill", 18)
+d = Dog("Hill", 26)
+d.show()
+c.show()

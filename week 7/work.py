@@ -57,20 +57,21 @@ class Computation:
         return lDiv
 
     def listDivPrim (self, n):
-        lDiv = []
+        list_Div = []
         for i in range (1, n + 1):
             if (n% i == 0 and self.test_prim (i)):
-                lDiv.append (i)
-        return lDiv
+                list_Div.append (i)
+        return list_Div
 
 comput = Computation()
 # comput.listDivPrim(16)
-print(comput.factorial(16))
+# print(comput.factorial(16))
+# print(comput.listDiv(18))
 # print(comput.factorial(7))
 # print(comput.table_mult(8))
 # comput.table_mult(9)
 # comput.all_table_mult()
-# comput.test_prim(26)
+print(comput.test_prim(31))
 # comput.test_prims(23,17)
 # print(comput.sum(23))
 # print(comput.listDiv(20))

@@ -1,2 +1,2 @@
 for letter in "chrome":
-    print(letter)
+    print(letter , end= "")

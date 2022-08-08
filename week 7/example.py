@@ -178,12 +178,12 @@ def main():
     ask = int(input("option : "))
     if ask == 1:
     #calling increase method to increase attendance value by 1
-        print(p.increase_attendance(data))
+        return (p.increase_attendance(data))
     elif ask == 2:
-        print(p.update_first_and_lastname(data))
+        return (p.update_first_and_lastname(data))
     elif ask == 3:
         full=p.fullname_in_titlecase(data)
-        print(full)
+        return(full)
     elif ask == 4:
         newpro = p.add_new_profile(data)
         print(newpro)

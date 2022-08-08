@@ -71,8 +71,8 @@ class Computation:
 
 # Instantiation example
 Comput= Computation ()
-Comput.testprims (15, 7)
-# print ("List of divisors of 18:", Comput.listDiv (18))
-print (Comput.listDivPrim (18))
+# Comput.testprims (15, 7)
+print ("List of divisors of 18:", Comput.listDiv (18))
+# print (Comput.listDivPrim (18))
 # Comput.allTables ()
 # Comput.testprims(23,17)

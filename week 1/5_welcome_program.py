@@ -9,5 +9,5 @@ challenge = input("what are the challenges you've ever face in life:")
 determined = input("What are you determied to achive in life:")
 best_friend = input("What is the name of ur best friend:")
 role_model = input("Who is your role model:")
-eassy
+eassy = message
 print(eassy)

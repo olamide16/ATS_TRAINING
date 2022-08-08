@@ -1,5 +1,3 @@
-from re import A
-
 
 def fibo(n):
     a = 0
