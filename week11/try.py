@@ -1,6 +1,3 @@
-from re import I
-
-
 def factor(n):
     factors = []
     for i in range(1,n +1):
@@ -96,4 +93,15 @@ def fibo(n):
     # print(fibo_series)
         print(b)
             # print(b)
-fibo(n=int(input("Enter a number: ")))
+# fibo(n=int(input("Enter a number: ")))
+
+
+def cube_num(n):
+    for i in range(1,n+1):
+        if n > 0:
+            print(f"Current Number is: {i} and the cube is {i ** 3}")
+        else:
+            print(0)
+# cube_num(n=int(input("Enter a number: ")))
+
+
