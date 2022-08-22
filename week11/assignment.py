@@ -93,7 +93,7 @@ def guess_game():
 def rational_number(x, y):
     num = Fraction(x, y)
     print(num)
-# rational_number(3, 7)
+# rational_number(10, 15)
 
 def cardinal_number(n):
     suffix = ['th', 'st', 'nd', 'rd', 'th', 'th', 'th', 'th', 'th', 'th']
@@ -111,7 +111,7 @@ def cardinal_number(n):
     return str(n) + s
 # print(cardinal_number(int(input("Enter a number: "))))
 
-def calculate():
+def calculator():
     print(""" 
           multiplying - *
           addition - +
@@ -123,4 +123,4 @@ def calculate():
     find2 = int(find)
     print(find2)
     
-# calculate()
+calculator()

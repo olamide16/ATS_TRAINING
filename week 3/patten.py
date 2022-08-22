@@ -1,9 +1,9 @@
-n = 10
-for i in range(n):
-    for j in range(i +1):
-        print('*', end = " ")
-    print()
-rows = 10
+# n = 10
+# for i in range(n):
+#     for j in range(i +1):
+#         print('*', end = " ")
+#     print()
+# rows = 10
 
 # i = rows
 # while i >= 1:

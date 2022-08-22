@@ -14,3 +14,4 @@ def pythagorean_triplet(hypotenus, side1,side2):
             print("Its obeys pythagorean_theorem")
         else: 
             print("Invalid result")
+pythagorean_triplet(0,0,0)

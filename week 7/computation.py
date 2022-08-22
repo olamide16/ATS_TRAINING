@@ -68,12 +68,13 @@ class Computation:
             if (n% i == 0 and self.testPrim (i)):
                 lDiv.append (i)
         return lDiv
+# list_mult = [i for i in range(1,11)]
 
 # Instantiation example
 Comput= Computation ()
 # Comput.testPrim (15)
-print(Comput.testPrim(13))
-# print(Comput.listDiv(18))
+# print(Comput.testPrim(13))
+print(Comput.listDiv(18))
 # print ("List of divisors of 18:", Comput.listDiv (18))
 # print (Comput.listDivPrim (18))
 # Comput.allTables ()
