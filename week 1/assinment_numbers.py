@@ -23,5 +23,6 @@ def numToWords(n, s):
 
 def convertToWords(n):
     out = "";
-    out += numToWords(n // 10000) 
+    # out += numToWords(n // 10000) 
     out += numToWords(((n // 100000) % 100),)
+print(convertToWords(1234))

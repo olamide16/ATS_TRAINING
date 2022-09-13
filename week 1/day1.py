@@ -18,7 +18,7 @@ def convert_to_words(num):
                      "fifty", "sixty", "seventy", "eighty",
                      "ninety"]
  
-    tens_power = ["hundred", "thousand"]
+    tens_power = ["hundred", "thousand", "million"]
  
     print(num, ":", end=" ")
  
@@ -55,6 +55,7 @@ def convert_to_words(num):
  
             # Need to explicitly handle 20
             elif (ord(num[x]) - 48 == 2 and
+                  
                   ord(num[x + 1]) - 48 == 0):
                 print("twenty")
                 return
@@ -74,6 +75,7 @@ def convert_to_words(num):
  
  
 # Driver Code
+convert_to_words()
 convert_to_words("9923") # Four Digits
 convert_to_words("523") # Three Digits
 convert_to_words("89") # Two Digits

@@ -22,7 +22,7 @@ while True:
     text = input("> ")
     if text:
     	text = text.strip('D ')
-    	text = text.replace('W ', '-')
+    	# text = text.replace('W ', '-')
     	transactions.append(text)
     else: 
 		break	

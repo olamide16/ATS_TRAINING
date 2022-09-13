@@ -59,7 +59,6 @@ class Computation:
             if (n% i == 0):
                 lDiv.append (i)
         return lDiv
-
 # ------ list of prime divisors of an integer ----------------
     def listDivPrim (self, n):
         # initialization of the list of divisors
